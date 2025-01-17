@@ -7,7 +7,9 @@
 * [test hello world message, tags](https://github.com/bibhusprasad/024_Karate_api_automation/commit/15b12e7c93081204111a05377c53dcb1383c892e)
 
 ### Fake Rest API: Airline Data
-* [get airline by id and create airline]()
+* [get airline by id and create airline](https://github.com/bibhusprasad/024_Karate_api_automation/commit/55183fd650d54266050894c53353bccf124c462f)
+* [different types response data validation]()
+
 
 # Notes
 
