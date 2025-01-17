@@ -11,4 +11,9 @@ public class KarateRunnerTest {
     Karate testHelloWorld() {
         return Karate.run().tags("HelloWorld").relativeTo(getClass());
     }
+
+    @Karate.Test
+    Karate testAirline() {
+        return Karate.run().tags("Airline").relativeTo(getClass());
+    }
 }
