@@ -25,7 +25,7 @@ Feature: Create an Airline
     When method post
     Then status 200
 
-  Scenario: Create an airline with created json payload
+  Scenario: Create an airline with hardcoded json payload
     * def requestPayload = {}
     * requestPayload.id = "252d3bca-d9bb-476c-5s78-562d547g535k"
     * requestPayload.name = "Sri Lankan Airways", requestPayload.country = "Sri Lanka"
@@ -34,5 +34,48 @@ Feature: Create an Airline
 
     Given url 'https://api.instantwebtools.net/v1/airlines'
     And request requestPayload
+    When method post
+    Then status 200
+
+  Scenario: Create an airline with json file payload from external sources
+    * def requestPayloadExternalFile = read('payloads/createAirlinePayload.json')
+    * print requestPayloadExternalFile
+
+    Given url 'https://api.instantwebtools.net/v1/airlines'
+    And request requestPayloadExternalFile
+    When method post
+    Then status 200
+    * remove requestPayloadExternalFile.id
+    And request requestPayloadExternalFile
+    When method post
+    Then status 200
+
+  Scenario: Create an airline with json file payload from external sources and set new key
+    * def requestPayloadExternalFile = read('payloads/createAirlinePayload.json')
+    * set requestPayloadExternalFile.ceo =
+    """
+    {
+    "name": "Amod Malik",
+    "address": [
+        {
+          "city": "Bangalore",
+          "country": "India"
+        },
+        {
+          "city": "Hyderabad",
+          "country": "India"
+        }
+      ]
+    }
+    """
+    * print requestPayloadExternalFile
+    * print requestPayloadExternalFile.ceo.name
+    * print requestPayloadExternalFile.ceo.address[0].city
+    * print requestPayloadExternalFile.ceo.address[0].country
+    * print requestPayloadExternalFile.ceo.address[1].city
+    * print requestPayloadExternalFile.ceo.address[1].country
+
+    Given url 'https://api.instantwebtools.net/v1/airlines'
+    And request requestPayloadExternalFile
     When method post
     Then status 200
