@@ -6,4 +6,9 @@ public class KarateRunnerTest {
     Karate testAll() {
         return Karate.run().relativeTo(getClass());
     }
+
+    @Karate.Test
+    Karate testHelloWorld() {
+        return Karate.run().tags("HelloWorld").relativeTo(getClass());
+    }
 }
