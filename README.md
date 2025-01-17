@@ -10,8 +10,10 @@
 * [get airline by id and create airline](https://github.com/bibhusprasad/024_Karate_api_automation/commit/55183fd650d54266050894c53353bccf124c462f)
 * [get request different types response data validation](https://github.com/bibhusprasad/024_Karate_api_automation/commit/df25bfe29eb7f9ec8ff66f79621334eddb84216b)
 * [post request different ways to create request object](https://github.com/bibhusprasad/024_Karate_api_automation/commit/491a93da55b7223dbfd6fb2aefc42e4ab76ae724)
-* [post request different ways to create and read from external json file]()
+* [post request different ways to create and read from external json file](https://github.com/bibhusprasad/024_Karate_api_automation/commit/12f8470605e850904164e16e3c0d5571b0c65e33)
 
+### JSON Payload examples
+* [create json payload examples]()
 
 # Notes
 

@@ -18,3 +18,37 @@ Feature: Get an Airline By Id
     And match header Content-Type == "application/json; charset=utf-8"
     And match header Content-Type contains "application/json"
     And match karate.response.header('Content-Type') == "application/json; charset=utf-8"
+
+# OUTPUT
+# responseStatus code is 200
+
+# {
+#  "Server": [
+#    "nginx/1.24.0 (Ubuntu)"
+#  ],
+#  "Date": [
+#    "Fri, 17 Jan 2025 12:46:34 GMT"
+#  ],
+#  "Content-Type": [
+#    "application/json; charset=utf-8"
+#  ],
+#  "Content-Length": [
+#    "270"
+#  ],
+#  "Connection": [
+#    "keep-alive"
+#  ],
+#  "X-Powered-By": [
+#    "Express"
+#  ],
+#  "Access-Control-Allow-Origin": [
+#    "*"
+#  ],
+#  "ETag": [
+#    "W/\"10e-OfaMUw/70UVGjfKAext3kTU3Ds8\""
+#  ],
+#  "Set-Cookie": [
+#  ]
+# }
+
+# application/json; charset=utf-8

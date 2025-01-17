@@ -16,4 +16,9 @@ public class KarateRunnerTest {
     Karate testAirline() {
         return Karate.run().tags("Airline").relativeTo(getClass());
     }
+
+    @Karate.Test
+    Karate testJsonPayload() {
+        return Karate.run().tags("JsonPayload").relativeTo(getClass());
+    }
 }
