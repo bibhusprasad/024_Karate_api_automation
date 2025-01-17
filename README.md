@@ -13,7 +13,8 @@
 * [post request different ways to create and read from external json file](https://github.com/bibhusprasad/024_Karate_api_automation/commit/12f8470605e850904164e16e3c0d5571b0c65e33)
 
 ### JSON Payload examples
-* [create json payload examples]()
+* [create json payload examples](https://github.com/bibhusprasad/024_Karate_api_automation/commit/1e8f3667387b618713b2619bbdcfc55fa63e41cb)
+* [generate random number data for payload using data faker library]()
 
 # Notes
 
@@ -23,3 +24,4 @@
 * [Fake API generate](https://www.instantwebtools.net/fake-api/)
 * [multiple to single line converter](https://tools.knowledgewalls.com/online-multiline-to-single-line-converter)
 * [json object editor](https://www.objgen.com/json?demo=true)
+* [To generate random data use data faker](https://github.com/datafaker-net/datafaker)

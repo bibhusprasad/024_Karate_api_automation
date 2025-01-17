@@ -21,4 +21,9 @@ public class KarateRunnerTest {
     Karate testJsonPayload() {
         return Karate.run().tags("JsonPayload").relativeTo(getClass());
     }
+
+    @Karate.Test
+    Karate testGenerateRandomDataForPayload() {
+        return Karate.run().tags("DataFaker").relativeTo(getClass());
+    }
 }
