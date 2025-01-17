@@ -8,7 +8,8 @@
 
 ### Fake Rest API: Airline Data
 * [get airline by id and create airline](https://github.com/bibhusprasad/024_Karate_api_automation/commit/55183fd650d54266050894c53353bccf124c462f)
-* [different types response data validation]()
+* [get request different types response data validation](https://github.com/bibhusprasad/024_Karate_api_automation/commit/df25bfe29eb7f9ec8ff66f79621334eddb84216b)
+* [post request different ways to create request object]()
 
 
 # Notes
