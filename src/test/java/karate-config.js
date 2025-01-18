@@ -6,12 +6,10 @@ function fn() {
     }
     var config = {
         env: env,
-        createAirlineUrl: "https://api.instantwebtools.net/v1/airlines",
-        getAirlineUrl: "https://api.instantwebtools.net/v1/airlines/"
+        createAirlineUrl: "https://api.instantwebtools.net/v1/airlines"
     }
     if (env == 'dev') {
-        // customize
-        // e.g. config.foo = 'bar';
+        config.getAirlineUrl = "https://api.instantwebtools.net/v1/airlines/"
     } else if (env == 'e2e') {
         // customize
     }

@@ -4,6 +4,7 @@ public class KarateRunnerTest {
 
     @Karate.Test
     Karate testAll() {
+        System.setProperty("karate.env", "dev");
         return Karate.run().relativeTo(getClass());
     }
 
@@ -14,6 +15,7 @@ public class KarateRunnerTest {
 
     @Karate.Test
     Karate testAirline() {
+        System.setProperty("karate.env", "dev");
         return Karate.run().tags("Airline").relativeTo(getClass());
     }
 
