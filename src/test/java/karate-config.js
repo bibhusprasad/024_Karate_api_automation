@@ -6,8 +6,8 @@ function fn() {
     }
     var config = {
         env: env,
-        myVarName: 'hello karate',
-        baseUrl: 'https://www.kloia.com/'
+        createAirlineUrl: "https://api.instantwebtools.net/v1/airlines",
+        getAirlineUrl: "https://api.instantwebtools.net/v1/airlines/"
     }
     if (env == 'dev') {
         // customize
