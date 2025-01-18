@@ -17,7 +17,8 @@
 * [generate random number data for payload using data faker library](https://github.com/bibhusprasad/024_Karate_api_automation/commit/cde5a2e5c032ed75531084ac5e8ff42fb3e8ecc9)
 * [generate random number data for payload using data faker library](https://github.com/bibhusprasad/024_Karate_api_automation/commit/cde5a2e5c032ed75531084ac5e8ff42fb3e8ecc9)
 * [define global environment variable ](https://github.com/bibhusprasad/024_Karate_api_automation/commit/3af256bb602b27f3e3be5b46b37ce42bda7281b2)
-* [define dev env for karate env ](https://github.com/bibhusprasad/024_Karate_api_automation/commit/3af256bb602b27f3e3be5b46b37ce42bda7281b2)
+* [define dev env for karate env ](https://github.com/bibhusprasad/024_Karate_api_automation/commit/1793c77a7c837ecce27640895aa18937f178d9c7)
+* [define dev env for karate env build issue fix ]()
 
 # Notes
 

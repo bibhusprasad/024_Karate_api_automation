@@ -38,7 +38,7 @@ Feature: Create an Airline
     Then status 200
 
   Scenario: Create an airline with json file payload from external sources
-    * def requestPayloadExternalFile = read('payloads/createAirlinePayload.json')
+    * def requestPayloadExternalFile = read('../payloads/createAirlinePayload.json')
     * print requestPayloadExternalFile
 
     Given url 'https://api.instantwebtools.net/v1/airlines'
@@ -51,7 +51,7 @@ Feature: Create an Airline
     Then status 200
 
   Scenario: Create an airline with json file payload from external sources and set new key
-    * def requestPayloadExternalFile = read('payloads/createAirlinePayload.json')
+    * def requestPayloadExternalFile = read('../payloads/createAirlinePayload.json')
     * set requestPayloadExternalFile.ceo =
     """
     {
