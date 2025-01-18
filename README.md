@@ -19,7 +19,8 @@
 * [define global environment variable ](https://github.com/bibhusprasad/024_Karate_api_automation/commit/3af256bb602b27f3e3be5b46b37ce42bda7281b2)
 * [define dev env for karate env ](https://github.com/bibhusprasad/024_Karate_api_automation/commit/1793c77a7c837ecce27640895aa18937f178d9c7)
 * [define dev env for karate env build issue fix ](https://github.com/bibhusprasad/024_Karate_api_automation/commit/3153408da476b85cbcf25e31082a2da6060dcaf1)
-* [embedded expression - variable and json path - dynamic payload]()
+* [embedded expression - variable and json path - dynamic payload](https://github.com/bibhusprasad/024_Karate_api_automation/commit/c93fc0597116caf11e7b05714f8b9addd95ad890)
+* [jsonPath expressions - jayway jsonPath]()
 
 # Notes
 
@@ -30,3 +31,6 @@
 * [multiple to single line converter](https://tools.knowledgewalls.com/online-multiline-to-single-line-converter)
 * [json object editor](https://www.objgen.com/json?demo=true)
 * [To generate random data use data faker](https://github.com/datafaker-net/datafaker)
+* [Jayway JsonPath](https://github.com/json-path/JsonPath)
+
+![plot](/images/JsonPath.png?raw=true)
