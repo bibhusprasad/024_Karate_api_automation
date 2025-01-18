@@ -7,22 +7,27 @@ Feature: Jsonpath concepts in details
 
     * def expensiveObj = get jsonObject.expensive
     * print expensiveObj
+    # 10
     * match expensiveObj == 10
 
     * def expensiveObj1 = get jsonObject $.expensive
     * print expensiveObj1
+    # 10
     * match expensiveObj1 == 10
 
     * def expensiveObj2 = $jsonObject.expensive
     * print expensiveObj2
+    # 10
     * match expensiveObj2 == 10
 
     * def expensiveObj3 = karate.get('jsonObject.expensive')
     * print expensiveObj3
+    # 10
     * match expensiveObj3 == 10
 
     * def expensiveObj4 = karate.jsonPath(jsonObject, '$.expensive')
     * print expensiveObj4
+    # 10
     * match expensiveObj4 == 10
 
     * print jsonObject.store.book[0].title

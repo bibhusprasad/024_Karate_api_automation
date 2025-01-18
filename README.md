@@ -20,7 +20,8 @@
 * [define dev env for karate env ](https://github.com/bibhusprasad/024_Karate_api_automation/commit/1793c77a7c837ecce27640895aa18937f178d9c7)
 * [define dev env for karate env build issue fix ](https://github.com/bibhusprasad/024_Karate_api_automation/commit/3153408da476b85cbcf25e31082a2da6060dcaf1)
 * [embedded expression - variable and json path - dynamic payload](https://github.com/bibhusprasad/024_Karate_api_automation/commit/c93fc0597116caf11e7b05714f8b9addd95ad890)
-* [jsonPath expressions - jayway jsonPath]()
+* [jsonPath expressions - jayway jsonPath](https://github.com/bibhusprasad/024_Karate_api_automation/commit/6a3df6c8d4d949f1093e1d9f9d74ced55ea036b9)
+* [refactor added output to print statements]()
 
 # Notes
 

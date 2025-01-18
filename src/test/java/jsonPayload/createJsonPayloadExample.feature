@@ -7,12 +7,10 @@ Feature: Create Nested Complex Json payloads in Karate Framework using set multi
       | id   | 12               |
       | name | "Amod's Airline" |
     * print jsonObjectPayload
-
-#  OUTPUT
-#  {
-#   "id": 12,
-#   "name": "Amod's Airline"
-#  }
+    #  {
+    #   "id": 12,
+    #   "name": "Amod's Airline"
+    #  }
 
   Scenario: Create Nested JSON Object Case 1
     * set jsonObjectPayload
@@ -22,16 +20,14 @@ Feature: Create Nested Complex Json payloads in Karate Framework using set multi
       | address.city    | 'Bangalore'      |
       | address.country | 'India'          |
     * print jsonObjectPayload
-
-#  OUTPUT
-#  {
-#    "id": 12,
-#    "name": "Amod's Airline",
-#    "address": {
-#      "city": "Bangalore",
-#      "country": "India"
-#    }
-#  }
+    #  {
+    #    "id": 12,
+    #    "name": "Amod's Airline",
+    #    "address": {
+    #      "city": "Bangalore",
+    #      "country": "India"
+    #    }
+    #  }
 
   Scenario: Create Nested JSON Object Case 2
     * set jsonObjectPayload
@@ -43,26 +39,24 @@ Feature: Create Nested Complex Json payloads in Karate Framework using set multi
       | address[1].secondary.street | 'street two'     |
       | address[1].secondary.city   | 'Hyderabad'      |
     * print jsonObjectPayload
-
-#  OUTPUT
-#  {
-#    "id": 12,
-#    "name": "Amod's Airline",
-#    "address": [
-#      {
-#        "primary": {
-#          "street": "street one",
-#          "city": "Bangalore"
-#        }
-#      },
-#      {
-#        "secondary": {
-#          "street": "street two",
-#          "city": "Hyderabad"
-#        }
-#      }
-#    ]
-#  }
+    #  {
+    #    "id": 12,
+    #    "name": "Amod's Airline",
+    #    "address": [
+    #      {
+    #        "primary": {
+    #          "street": "street one",
+    #          "city": "Bangalore"
+    #        }
+    #      },
+    #      {
+    #        "secondary": {
+    #          "street": "street two",
+    #          "city": "Hyderabad"
+    #        }
+    #      }
+    #    ]
+    #  }
 
   Scenario: Create simple JSON Object with variables
     * def idValue = 12
@@ -72,12 +66,10 @@ Feature: Create Nested Complex Json payloads in Karate Framework using set multi
       | id   | idValue   |
       | name | nameValue |
     * print jsonObjectPayload
-
-# OUTPUT
-#  {
-#    "id": 12,
-#    "name": "Amod's Airline"
-#  }
+    #  {
+    #    "id": 12,
+    #    "name": "Amod's Airline"
+    #  }
 
   Scenario: Create simple Array Object
     * set jsonObjectPayload
@@ -85,18 +77,16 @@ Feature: Create Nested Complex Json payloads in Karate Framework using set multi
       | id   | 12               | 13            |
       | name | "Amod's Airline" | 'Bibhu Samal' |
     * print jsonObjectPayload
-
-# OUTPUT
-#  [
-#    {
-#      "id": 12,
-#      "name": "Amod's Airline"
-#    },
-#    {
-#      "id": 13,
-#      "name": "Bibhu Samal"
-#    }
-#  ]
+    #  [
+    #    {
+    #      "id": 12,
+    #      "name": "Amod's Airline"
+    #    },
+    #    {
+    #      "id": 13,
+    #      "name": "Bibhu Samal"
+    #    }
+    #  ]
 
   Scenario: Create simple Array Object Exclude filed
     * set jsonObjectPayload
@@ -104,17 +94,15 @@ Feature: Create Nested Complex Json payloads in Karate Framework using set multi
       | id   | 12               |               |
       | name | "Amod's Airline" | 'Bibhu Samal' |
     * print jsonObjectPayload
-
-# OUTPUT
-#  [
-#    {
-#      "id": 12,
-#      "name": "Amod's Airline"
-#    },
-#    {
-#      "name": "Bibhu Samal"
-#    }
-#  ]
+    #  [
+    #    {
+    #      "id": 12,
+    #      "name": "Amod's Airline"
+    #    },
+    #    {
+    #      "name": "Bibhu Samal"
+    #    }
+    #  ]
 
   Scenario: Create simple Array Object null filed
     * set jsonObjectPayload
@@ -122,18 +110,16 @@ Feature: Create Nested Complex Json payloads in Karate Framework using set multi
       | id   | 12               | (null)        |
       | name | "Amod's Airline" | 'Bibhu Samal' |
     * print jsonObjectPayload
-
-# OUTPUT
-#  [
-#    {
-#      "id": 12,
-#      "name": "Amod's Airline"
-#    },
-#    {
-#      "id": null,
-#      "name": "Bibhu Samal"
-#    }
-#  ]
+    #  [
+    #    {
+    #      "id": 12,
+    #      "name": "Amod's Airline"
+    #    },
+    #    {
+    #      "id": null,
+    #      "name": "Bibhu Samal"
+    #    }
+    #  ]
 
   Scenario: Manipulate existing json
     * def existingJsonObjectPayload = {name : 'Bibhu Samal'}
@@ -142,12 +128,10 @@ Feature: Create Nested Complex Json payloads in Karate Framework using set multi
       | id   | 12               |
       | name | "Amod's Airline" |
     * print existingJsonObjectPayload
-
-# OUTPUT
-#  {
-#    "name": "Amod's Airline",
-#    "id": 12
-#  }
+    #  {
+    #    "name": "Amod's Airline",
+    #    "id": 12
+    #  }
 
   Scenario: Manipulate existing json - set with jsonpath
     * def existingJsonObjectPayload = {name : 'Bibhu Samal'}
@@ -156,12 +140,10 @@ Feature: Create Nested Complex Json payloads in Karate Framework using set multi
       | id   | 12               |
       | name | "Amod's Airline" |
     * print existingJsonObjectPayload
-
-# OUTPUT
-#  {
-#    "name": "Bibhu Samal",
-#    "details": {
-#      "id": 12,
-#      "name": "Amod's Airline"
-#    }
-#  }
+    #  {
+    #    "name": "Bibhu Samal",
+    #    "details": {
+    #      "id": 12,
+    #      "name": "Amod's Airline"
+    #    }
+    #  }

@@ -11,12 +11,11 @@ Feature: Generate Random data using Java Faker library
       | id   | idValue |
       | name | idName  |
     * print jsonObjectPayload
-
-# OUTPUT
-#  {
-#    "id": "01933",
-#    "name": "Coy Grant"
-#  }
+    # OUTPUT
+    #  {
+    #    "id": "01933",
+    #    "name": "Coy Grant"
+    #  }
 
   Scenario: Create simple JSON Object using Custom Java Class using Data Faker
     * def dataFaker = Java.type("utils.RandomDataGenerator")
@@ -27,9 +26,8 @@ Feature: Generate Random data using Java Faker library
       | id   | idValue |
       | name | idName  |
     * print jsonObjectPayload
-
-# OUTPUT
-#  {
-#    "id": "494406",
-#    "name": "Cyrus Tremblay"
-#  }
+    # OUTPUT
+    #  {
+    #    "id": "494406",
+    #    "name": "Cyrus Tremblay"
+    #  }
