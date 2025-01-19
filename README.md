@@ -23,18 +23,23 @@
 * [jsonPath expressions - jayway jsonPath](https://github.com/bibhusprasad/024_Karate_api_automation/commit/6a3df6c8d4d949f1093e1d9f9d74ced55ea036b9)
 * [refactor added output to print statements](https://github.com/bibhusprasad/024_Karate_api_automation/commit/20eaded99c21f1956a82a05cea6d11f2d5d03e60)
 * [data driven testing approach from json and csv file](https://github.com/bibhusprasad/024_Karate_api_automation/commit/50cb6249a8d785c7f93d057fb795aa4922a17c39)
-* [read and filter null values form json and csv file]()
+* [read and filter null values form json and csv file](https://github.com/bibhusprasad/024_Karate_api_automation/commit/cc8fb3c6fae8771821f4f4bb92905794b64d8ffd)
+* [fuzzy matcher example]()
 
 # Notes
 
 * [Karate Framework Official Url](https://karatelabs.github.io/karate/)
 
-### To get fake rest api
 * [Fake API generate](https://www.instantwebtools.net/fake-api/)
 * [multiple to single line converter](https://tools.knowledgewalls.com/online-multiline-to-single-line-converter)
 * [json object editor](https://www.objgen.com/json?demo=true)
 * [To generate random data use data faker](https://github.com/datafaker-net/datafaker)
 * [Jayway JsonPath](https://github.com/json-path/JsonPath)
 * [Mockaroo Random data generator and API mocking](https://www.mockaroo.com/)
+* [Fuzzy matching](https://github.com/karatelabs/karate#fuzzy-matching)
 
+## Json Path
 ![plot](/images/JsonPath.png?raw=true)
+
+## Fuzzy Matching
+![plot](/images/fuzzyMatching.png?raw=true)
