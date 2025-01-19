@@ -22,7 +22,8 @@
 * [embedded expression - variable and json path - dynamic payload](https://github.com/bibhusprasad/024_Karate_api_automation/commit/c93fc0597116caf11e7b05714f8b9addd95ad890)
 * [jsonPath expressions - jayway jsonPath](https://github.com/bibhusprasad/024_Karate_api_automation/commit/6a3df6c8d4d949f1093e1d9f9d74ced55ea036b9)
 * [refactor added output to print statements](https://github.com/bibhusprasad/024_Karate_api_automation/commit/20eaded99c21f1956a82a05cea6d11f2d5d03e60)
-* [data driven testing approach]()
+* [data driven testing approach from json and csv file](https://github.com/bibhusprasad/024_Karate_api_automation/commit/50cb6249a8d785c7f93d057fb795aa4922a17c39)
+* [read and filter null values form json and csv file]()
 
 # Notes
 
