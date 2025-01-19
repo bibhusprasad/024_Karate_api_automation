@@ -21,7 +21,8 @@
 * [define dev env for karate env build issue fix ](https://github.com/bibhusprasad/024_Karate_api_automation/commit/3153408da476b85cbcf25e31082a2da6060dcaf1)
 * [embedded expression - variable and json path - dynamic payload](https://github.com/bibhusprasad/024_Karate_api_automation/commit/c93fc0597116caf11e7b05714f8b9addd95ad890)
 * [jsonPath expressions - jayway jsonPath](https://github.com/bibhusprasad/024_Karate_api_automation/commit/6a3df6c8d4d949f1093e1d9f9d74ced55ea036b9)
-* [refactor added output to print statements]()
+* [refactor added output to print statements](https://github.com/bibhusprasad/024_Karate_api_automation/commit/20eaded99c21f1956a82a05cea6d11f2d5d03e60)
+* [data driven testing approach]()
 
 # Notes
 
@@ -33,5 +34,6 @@
 * [json object editor](https://www.objgen.com/json?demo=true)
 * [To generate random data use data faker](https://github.com/datafaker-net/datafaker)
 * [Jayway JsonPath](https://github.com/json-path/JsonPath)
+* [Mockaroo Random data generator and API mocking](https://www.mockaroo.com/)
 
 ![plot](/images/JsonPath.png?raw=true)
