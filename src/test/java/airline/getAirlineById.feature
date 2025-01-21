@@ -2,7 +2,7 @@
 @Airline
 Feature: Get an Airline By Id
   Scenario: Get an Airline Details by airline id
-    Given url getAirlineUrl
+    Given url airlineUrl
     And path '73dd5420-3bf9-48f3-a0b6-17cf7aa61b19'
     When method get
     Then status 200

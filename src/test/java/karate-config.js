@@ -6,12 +6,11 @@ function fn() {
     }
     var config = {
         env: env,
-        createAirlineUrl: "https://api.instantwebtools.net/v1/airlines",
         fNameGloVal: "bibhu global",
         lNameGloVal: "samal global"
     }
     if (env == 'dev') {
-        config.getAirlineUrl = "https://api.instantwebtools.net/v1/airlines/"
+        config.airlineUrl = "https://api.instantwebtools.net/v1/airlines/"
     } else if (env == 'e2e') {
         // customize
     }
