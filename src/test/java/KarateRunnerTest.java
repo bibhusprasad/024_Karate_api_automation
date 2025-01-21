@@ -45,4 +45,18 @@ public class KarateRunnerTest {
     Karate testKarateConcepts() {
         return Karate.run().tags("KarateConcepts").relativeTo(getClass());
     }
+
+    @Karate.Test
+    Karate testTags() {
+        System.setProperty("karate.env", "dev");
+        return Karate.run()
+                .tags("@Run") //run all @Run scenario
+                //.tags("@Smoke") //run all @Smoke scenario
+                //.tags("@Smoke", "@Sanity") //run all @Smoke and @Sanity scenario
+                //.tags("~@Smoke") //run all use case except @Smoke
+                //.tags("@Sanity, ~@Smoke") //run all @Sanity and exclude except @Smoke : run 2 use case
+                //.tags("@Sanity", "~@Smoke") //run all @Sanity and exclude except @Smoke : run 1 use case. Strict matching
+                .relativeTo(getClass());
+    }
+
 }
