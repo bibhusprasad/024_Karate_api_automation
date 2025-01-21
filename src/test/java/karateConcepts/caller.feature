@@ -57,3 +57,27 @@ Feature: This feature file will call other feature files
     * def returnData = call read('callable4.feature') jsonObject
     * print returnData.response.token
     # eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjbGllbnRJZCI6IklobEtrRjI5SGJKVUpBZ09JWXhMaE1tamY3RSIsImNsaWVudE5hbWUiOiJLYXJhdGVVcGxvYWQxIiwic2NvcGUiOlsiYWNjb3VudDpyZWFkIiwiYWNjb3VudDp3cml0ZSIsInVzZXI6cmVhZCIsInVzZXI6d3JpdGUiLCJiaWxsaW5nOnJlYWQiLCJiaWxsaW5nOndyaXRlIiwiZmlsZXM6cmVhZCIsImZpbGVzOndyaXRlIiwiZmlsZXM6Y3JlYXRlIiwiZmlsZXM6dXBsb2FkOm11bHRpcGFydCIsImZpbGVzOnNoYXJlZEJpbGxpbmciLCJ2aWRlb3MiLCJpbWFnZXMiXSwiaWF0IjoxNzM3NDUwMTU4LCJleHAiOjE3Mzc0NTEzNTgsImF1ZCI6ImFjNmEyemFiZWoza2owZW5jc3NzaXQwbnp0c3B5OWd4In0.Ll556f9tpiYpe_qo-z6M60r2nSQS8waKp5TU3yS3wso
+
+  Scenario: Calling callable5 using tags
+    * def jsonObject =
+    """
+    {
+      "name": "bibhu",
+      "password": "password"
+    }
+    """
+    * def returnData = call read('callable5.feature@success') jsonObject
+    * print returnData.name
+    # bibhupasswordpass
+
+  Scenario: Calling callable5 using tags
+    * def jsonObject =
+    """
+    {
+      "name": "bibhu",
+      "password": "password"
+    }
+    """
+    * def returnData = call read('callable5.feature@failure') jsonObject
+    * print returnData.name
+    # bibhupasswordfail
