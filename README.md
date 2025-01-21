@@ -35,7 +35,8 @@
 * [retry until use case](https://github.com/bibhusprasad/024_Karate_api_automation/commit/a627470754acb57e63b9e5a0130dbb79185193ef)
 * [calling js functions and another js file](https://github.com/bibhusprasad/024_Karate_api_automation/commit/2deb9f2e7c64d27f2b5e31855b7d9371b5b6a4ae)
 * [karate repeat example](https://github.com/bibhusprasad/024_Karate_api_automation/commit/08203adbf1eb2aa952c4c44a35c741e13a33886f)
-* [conditional logic example]()
+* [conditional logic example](https://github.com/bibhusprasad/024_Karate_api_automation/commit/a2f3272a972959fcf212a4eb22616106d3270458)
+* [callonce or singleCall karate feature]()
 
 # Notes
 
