@@ -11,6 +11,8 @@ function fn() {
     }
     if (env == 'dev') {
         config.airlineUrl = "https://api.instantwebtools.net/v1/airlines/"
+        config.authEndPointUrl = "https://dev-457931.okta.com/oauth2/aushd4c95QtFHsfWt4x6/v1/token"
+        config.airlineAuthUrl = "https://api.instantwebtools.net/v2/airlines/"
     } else if (env == 'e2e') {
         // customize
     }

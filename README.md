@@ -11,7 +11,8 @@
 * [get request different types response data validation](https://github.com/bibhusprasad/024_Karate_api_automation/commit/df25bfe29eb7f9ec8ff66f79621334eddb84216b)
 * [post request different ways to create request object](https://github.com/bibhusprasad/024_Karate_api_automation/commit/491a93da55b7223dbfd6fb2aefc42e4ab76ae724)
 * [post request different ways to create and read from external json file](https://github.com/bibhusprasad/024_Karate_api_automation/commit/12f8470605e850904164e16e3c0d5571b0c65e33)
-* [refactor move url to dev env for auth integration]()
+* [refactor move url to dev env for auth integration](https://github.com/bibhusprasad/024_Karate_api_automation/commit/484eed3c328029d3f0eb4e81fe25625d90fa8b33)
+* [integrate authentication with karate]()
 
 ### JSON Payload examples
 * [create json payload examples](https://github.com/bibhusprasad/024_Karate_api_automation/commit/1e8f3667387b618713b2619bbdcfc55fa63e41cb)
