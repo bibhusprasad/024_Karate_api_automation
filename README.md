@@ -34,7 +34,8 @@
 * [using karate tag to call specific scenario](https://github.com/bibhusprasad/024_Karate_api_automation/commit/abe5ddf50100b6fa9faad8d7dadf7c9b24358f8f)
 * [retry until use case](https://github.com/bibhusprasad/024_Karate_api_automation/commit/a627470754acb57e63b9e5a0130dbb79185193ef)
 * [calling js functions and another js file](https://github.com/bibhusprasad/024_Karate_api_automation/commit/2deb9f2e7c64d27f2b5e31855b7d9371b5b6a4ae)
-* [karate repeat example]()
+* [karate repeat example](https://github.com/bibhusprasad/024_Karate_api_automation/commit/08203adbf1eb2aa952c4c44a35c741e13a33886f)
+* [conditional logic example]()
 
 # Notes
 
