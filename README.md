@@ -24,7 +24,8 @@
 * [refactor added output to print statements](https://github.com/bibhusprasad/024_Karate_api_automation/commit/20eaded99c21f1956a82a05cea6d11f2d5d03e60)
 * [data driven testing approach from json and csv file](https://github.com/bibhusprasad/024_Karate_api_automation/commit/50cb6249a8d785c7f93d057fb795aa4922a17c39)
 * [read and filter null values form json and csv file](https://github.com/bibhusprasad/024_Karate_api_automation/commit/cc8fb3c6fae8771821f4f4bb92905794b64d8ffd)
-* [fuzzy matcher example]()
+* [fuzzy matcher example](https://github.com/bibhusprasad/024_Karate_api_automation/commit/026ab7ad712ad7ff2cf521a09a824d9092410f66)
+* [karate file upload]()
 
 # Notes
 
@@ -37,6 +38,9 @@
 * [Jayway JsonPath](https://github.com/json-path/JsonPath)
 * [Mockaroo Random data generator and API mocking](https://www.mockaroo.com/)
 * [Fuzzy matching](https://github.com/karatelabs/karate#fuzzy-matching)
+* [file upload url](https://my.sirv.com/#/browse/)
+* [file upload url](https://my.sirv.com/#/browse/)
+* [multi part file upload url](https://app.uploadcare.com/)
 
 ## Json Path
 ![plot](/images/JsonPath.png?raw=true)
