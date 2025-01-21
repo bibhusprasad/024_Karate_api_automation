@@ -4,6 +4,7 @@ function fn() {
     if (!env) {
         env = 'dev';
     }
+    karate.configure('retry', {count : 5, interval : 5000})
     var config = {
         env: env,
         fNameGloVal: "bibhu global",
